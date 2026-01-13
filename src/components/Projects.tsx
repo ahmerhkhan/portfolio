@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ArrowUpRight, ExternalLink, Github } from "lucide-react";
 import Link from "next/link";
 
 export default function Projects() {
@@ -25,12 +25,12 @@ export default function Projects() {
 
             <div className="grid grid-cols-1 gap-6">
                 {projects.map((project, index) => (
-                    <div key={index} className="group border border-slate-200 rounded-xl overflow-hidden hover:border-blue-400 transition-colors bg-white">
+                    <div key={index} className="group border border-slate-200 rounded-xl overflow-hidden hover:border-blue-400 hover:shadow-lg transition-all duration-300 bg-white cursor-pointer">
                         <div className="p-8 space-y-6">
                             <div className="flex justify-between items-start">
                                 <div className="space-y-1">
                                     <div className="flex items-center gap-2">
-                                        <h3 className="text-2xl font-bold text-slate-900 leading-tight">{project.title}</h3>
+                                        <h3 className="text-2xl font-bold text-slate-900 leading-tight group-hover:text-blue-600 transition-colors">{project.title}</h3>
                                     </div>
                                     <div className="flex items-center gap-2">
                                         <span className="inline-block px-2 py-0.5 text-xs font-mono bg-slate-100 text-slate-600 rounded-full border border-slate-200">
@@ -41,15 +41,6 @@ export default function Projects() {
                                         )}
                                     </div>
                                 </div>
-                                {project.link && (
-                                    <Link
-                                        href={project.link}
-                                        target="_blank"
-                                        className="p-2 text-slate-400 hover:text-blue-600 transition-colors"
-                                    >
-                                        {project.linkType === 'github' ? <Github className="w-5 h-5" /> : <ExternalLink className="w-5 h-5" />}
-                                    </Link>
-                                )}
                             </div>
 
                             <div className="space-y-3">
@@ -74,6 +65,27 @@ export default function Projects() {
                                     ))}
                                 </ul>
                             </div>
+
+                            {/* Prominent CTA Button */}
+                            {project.link && (
+                                <Link
+                                    href={project.link}
+                                    target="_blank"
+                                    className="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors group/btn"
+                                >
+                                    {project.linkType === 'github' ? (
+                                        <>
+                                            <Github className="w-5 h-5" />
+                                            View on GitHub
+                                        </>
+                                    ) : (
+                                        <>
+                                            View Live Demo
+                                            <ArrowUpRight className="w-5 h-5 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                                        </>
+                                    )}
+                                </Link>
+                            )}
 
                         </div>
                     </div>
