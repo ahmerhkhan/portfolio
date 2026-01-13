@@ -23,7 +23,7 @@ export default function Hero() {
                     </Link>
 
                     <Link
-                        href="https://drive.google.com/file/d/1D5-1uC1ha2b6pLpRFGLOeVqaKrPN1xQM/view"
+                        href="https://drive.google.com/file/d/1SbZzn0qLvqLeAiB_GY-YLCpIgIfshRo0/view?usp=sharing"
                         target="_blank"
                         className="inline-flex items-center gap-2 px-6 py-3 border border-slate-200 text-slate-700 rounded-lg font-medium hover:bg-slate-50 transition-colors"
                     >

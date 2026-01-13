@@ -11,7 +11,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Ahmer Habib Khan | Hybrid Product Builder',
+  title: 'Ahmer Habib Khan | Portfolio',
   description: 'Product Manager + Full Stack Developer specializing in Fintech and SaaS.',
 };
 
