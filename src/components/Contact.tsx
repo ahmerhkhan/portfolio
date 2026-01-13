@@ -29,7 +29,7 @@ export default function Contact() {
                             GitHub
                         </Link>
                         <Link
-                            href="https://www.linkedin.com/in/ahmer-habib-khan-012b981b4/"
+                            href="https://www.linkedin.com/in/ahmerhkhan/"
                             target="_blank"
                             className="flex items-center gap-2 px-6 py-3 border border-slate-200 rounded-lg text-slate-600 hover:border-blue-700 hover:text-blue-700 transition-colors font-medium"
                             aria-label="LinkedIn Profile"
