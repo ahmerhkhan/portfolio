@@ -14,18 +14,6 @@ export default function Experience() {
                 { label: "The Outcome", text: "Led incubation at IBA CED and secured an initial waitlist of quant traders." }
             ],
             href: "/experience/stealth-fintech"
-        },
-        {
-            company: "Venue Management SaaS",
-            role: "Product Lead",
-            period: "Jan 2026 - Present",
-            description: "Building 'Conflict Guard' technology for B2B event venues.",
-            details: [
-                { label: "The Build", text: "Shipped a responsive Admin Dashboard using Next.js and Tailwind CSS." },
-                { label: "The Strategy", text: "Mapped user journeys to design logic that eliminates double-bookings." },
-                { label: "The Outcome", text: "Automated financial tracking and receipts, increasing operational transparency." }
-            ],
-            href: "/experience/venue-saas"
         }
     ];
 
