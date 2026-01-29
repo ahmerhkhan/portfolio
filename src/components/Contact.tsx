@@ -5,10 +5,7 @@ export default function Contact() {
     return (
         <section className="bg-white py-24 border-t border-slate-100">
             <div className="max-w-4xl mx-auto px-6 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Looking for a Product Manager who executes?</h2>
-                <p className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
-                    I bridge the gap between business strategy and technical delivery.
-                </p>
+                <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-10">Interested in a product-focused builder who can take ideas from research to MVP?</h2>
 
                 <div className="flex flex-col items-center gap-6">
                     <Link

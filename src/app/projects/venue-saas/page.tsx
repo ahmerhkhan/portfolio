@@ -18,7 +18,7 @@ export default function VenueSaasPage() {
                     {/* Header */}
                     <div className="space-y-4">
                         <span className="inline-block px-3 py-1 text-xs font-mono bg-blue-100 text-blue-700 rounded-full">
-                            Product Lead | Jan 2026 - Present
+                            Product Builder (Early-Stage / MVP) | Jan 2026 - Present
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
                             Venue Management SaaS
@@ -95,15 +95,15 @@ export default function VenueSaasPage() {
                         <ul className="space-y-3 text-slate-700">
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>
-                                Architected a scalable multi-tenant database schema using PostgreSQL with Row Level Security.
+                                Designed the MVP database model using PostgreSQL with role-based access controls.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>
-                                Built a custom "Conflict Guard" system that reduced booking errors to 0%.
+                                Built a custom "Conflict Guard" system that significantly reduced observed booking errors in early usage.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>
-                                Designed a "Thumb-Friendly" mobile UI, leading to 40% faster booking entry time.
+                                Designed a "Thumb-Friendly" mobile UI, which tested around 40% faster for booking entry during initial trials.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>

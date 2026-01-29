@@ -32,7 +32,7 @@ export default function DiligenceAIPage() {
                             Diligence AI
                         </h1>
                         <p className="text-xl text-slate-600 max-w-2xl">
-                            Automating the first 80% of venture capital deal screening by turning a startup's landing page into a structured, YC-style investment memo.
+                            Prototype for automating much of the first 80% of venture capital deal screening by turning a startup's landing page into a structured, YC-style investment memo.
                         </p>
                     </div>
 

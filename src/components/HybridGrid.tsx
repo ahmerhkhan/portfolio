@@ -17,7 +17,7 @@ export default function HybridGrid() {
                     <ul className="space-y-6 flex-grow">
                         {[
                             "Market Validation & User Research",
-                            "MVP Architecture & Roadmap Planning",
+                            "MVP Planning & Execution",
                             "Pricing & Unit Economics",
                             "Go-to-Market Strategy",
                             "Business Intelligence (Power BI, SQL)"
@@ -30,34 +30,30 @@ export default function HybridGrid() {
                     </ul>
                 </div>
 
-                {/* Technical Execution Card */}
+                {/* Technical & Product Execution Card */}
                 <div className="p-8 border border-slate-200 rounded-xl bg-slate-900 text-white shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
                     <div className="flex items-center gap-3 mb-6">
                         <div className="p-2 bg-teal-900/50 rounded-lg">
                             <Terminal className="w-6 h-6 text-teal-400" />
                         </div>
-                        <h3 className="text-xl font-bold text-white">Technical Execution</h3>
+                        <h3 className="text-xl font-bold text-white">Technical &amp; Product Execution</h3>
                     </div>
 
                     <div className="space-y-6 flex-grow">
                         <div className="space-y-2">
-                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">Frontend</div>
-                            <p className="text-slate-200 font-medium">Next.js, Tailwind CSS, TypeScript</p>
+                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">MVP Delivery</div>
+                            <p className="text-slate-200 font-medium">
+                                Shipping MVPs across web, backend, and mobile using Next.js, React, TypeScript, Tailwind CSS,
+                                Python (FastAPI), Supabase, PostgreSQL, Ionic, and Capacitor.
+                            </p>
                         </div>
 
                         <div className="space-y-2">
-                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">Backend</div>
-                            <p className="text-slate-200 font-medium">Python (FastAPI), Supabase, PostgreSQL</p>
-                        </div>
-
-                        <div className="space-y-2">
-                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">Mobile</div>
-                            <p className="text-slate-200 font-medium">Ionic, Capacitor, React</p>
-                        </div>
-
-                        <div className="space-y-2">
-                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">AI-Native Workflow</div>
-                            <p className="text-slate-200 font-medium">Prompt Engineering, Cursor-Assisted Build, LLM Integration</p>
+                            <div className="font-mono text-sm text-slate-400 uppercase tracking-wider">AI-Assisted Prototyping &amp; Automation</div>
+                            <p className="text-slate-200 font-medium">
+                                Using tools like Cursor and LLMs to rapidly prototype features, validate ideas, and automate parts
+                                of the MVP development workflow.
+                            </p>
                         </div>
                     </div>
                 </div>

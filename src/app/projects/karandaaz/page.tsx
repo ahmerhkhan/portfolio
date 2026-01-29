@@ -49,8 +49,8 @@ export default function KarandaazPage() {
                         <h2 className="text-2xl font-bold text-slate-900">The Solution</h2>
                         <div className="grid md:grid-cols-2 gap-6">
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
-                                <h3 className="font-bold text-slate-900 mb-2">Local-First Architecture</h3>
-                                <p className="text-sm text-slate-600">A completely offline-capable PWA that uses LocalStorage for profile registries and transaction history, requiring no backend infrastructure.</p>
+                                <h3 className="font-bold text-slate-900 mb-2">Local-First Architecture (MVP)</h3>
+                                <p className="text-sm text-slate-600">An offline-capable PWA that uses LocalStorage for profile registries and transaction history, requiring no backend infrastructure for the prototype.</p>
                             </div>
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
                                 <h3 className="font-bold text-slate-900 mb-2">QR Interoperability</h3>
@@ -85,7 +85,7 @@ export default function KarandaazPage() {
                         <ul className="space-y-3 text-slate-700">
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>
-                                Engineered a backend-less payment prototype to demonstrate the viability of client-side ledgers in low-trust environments.
+                                Built a backend-less payment prototype to explore the viability of client-side ledgers in low-trust environments.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-blue-600 font-bold">→</span>

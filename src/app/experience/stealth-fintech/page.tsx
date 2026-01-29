@@ -19,13 +19,13 @@ export default function StealthFintechPage() {
                     {/* Header */}
                     <div className="space-y-4">
                         <span className="inline-block px-3 py-1 text-xs font-mono bg-teal-100 text-teal-700 rounded-full">
-                            Co-Founder | June 2025 - Present
+                            Co-Founder - Product | June 2025 - Present
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
                             Stealth Fintech
                         </h1>
                         <p className="text-xl text-slate-600 max-w-2xl">
-                            The Alpaca API for Pakistan's Stock Market — A full-stack algorithmic trading platform enabling retail investors to backtest, paper-trade, and deploy quantitative strategies on the Pakistan Stock Exchange.
+                            An early-stage algorithmic trading platform for Pakistan's Stock Market — an MVP that enables retail investors to backtest, paper-trade, and explore quantitative strategies on the Pakistan Stock Exchange.
                         </p>
                     </div>
 
@@ -51,16 +51,16 @@ export default function StealthFintechPage() {
                         <h2 className="text-2xl font-bold text-slate-900">The Solution</h2>
                         <div className="grid md:grid-cols-2 gap-6">
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
-                                <h3 className="font-bold text-slate-900 mb-2">Python Trading SDK</h3>
-                                <p className="text-sm text-slate-600">Alpaca-style API for custom trading algorithms. 6+ built-in strategies (SMA, RSI, MACD). Comprehensive backtesting engine with configurable slippage.</p>
+                                <h3 className="font-bold text-slate-900 mb-2">Python Trading SDK (MVP)</h3>
+                                <p className="text-sm text-slate-600">Alpaca-style API prototype for custom trading algorithms. 6+ built-in strategies (SMA, RSI, MACD). Early backtesting engine with configurable slippage.</p>
                             </div>
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
                                 <h3 className="font-bold text-slate-900 mb-2">PSX Data Wrapper</h3>
-                                <p className="text-sm text-slate-600">Direct access to PSX Data Portal System. 486+ stocks, 37 sectors, 18 indices. Real-time quotes, L2 order books, historical data.</p>
+                                <p className="text-sm text-slate-600">Direct access to PSX Data Portal System with coverage across hundreds of PSX-listed stocks and indices, supporting historical and live market data for MVP experimentation.</p>
                             </div>
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
-                                <h3 className="font-bold text-slate-900 mb-2">REST API Backend</h3>
-                                <p className="text-sm text-slate-600">Multi-tenant architecture with token-based auth. Aggregated analytics across multiple trading bots. Async backtest execution with result persistence.</p>
+                                <h3 className="font-bold text-slate-900 mb-2">REST API Backend (MVP)</h3>
+                                <p className="text-sm text-slate-600">Implemented secure authentication and role-based access for the MVP. Aggregated analytics across multiple trading bots. Async backtest execution with result persistence for early testing.</p>
                             </div>
                             <div className="p-5 bg-slate-50 rounded-lg border border-slate-100">
                                 <h3 className="font-bold text-slate-900 mb-2">React Dashboard</h3>
@@ -87,11 +87,11 @@ export default function StealthFintechPage() {
                         <ul className="space-y-3 text-slate-700">
                             <li className="flex gap-2">
                                 <span className="text-teal-600 font-bold">→</span>
-                                Architected zero-to-one infrastructure for algorithmic trading in Pakistan's retail market.
+                                Built and iterated on an early-stage algorithmic trading platform for Pakistan's retail market.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-teal-600 font-bold">→</span>
-                                Led full-stack development across Python backend, React frontend, and data pipeline.
+                                Worked across Python backend, React frontend, and data pipeline to deliver a functional MVP.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-teal-600 font-bold">→</span>
@@ -99,11 +99,11 @@ export default function StealthFintechPage() {
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-teal-600 font-bold">→</span>
-                                Reduced strategy testing time from days to minutes via programmatic SDK execution.
+                                Helped reduce strategy testing time from days to minutes during early experiments via programmatic SDK execution.
                             </li>
                             <li className="flex gap-2">
                                 <span className="text-teal-600 font-bold">→</span>
-                                Led incubation at IBA CED and secured an initial waitlist of quant traders.
+                                Participated in IBA CED’s incubation program and secured an initial waitlist of interested quant traders.
                             </li>
                         </ul>
                     </section>

@@ -8,7 +8,7 @@ export default function Projects() {
             tag: "AI & Venture Capital",
             period: "",
             problem: "VCs spend too much time screening high volumes of startup decks and landing pages.",
-            solution: "Automated the first 80% of venture deal screening by turning startup landing pages into structured investment memos with weighted scoring.",
+            solution: "Prototype that helps automate much of the first-pass venture deal screening (~80%) by turning startup landing pages into structured investment memos with weighted scoring.",
             architecture: [
                 { label: "Frontend", text: "React 19 & Next.js 15 (App Router)" },
                 { label: "AI Engine", text: "Groq (Llama 3.3 70B) with custom YC-Partner persona." },
@@ -19,11 +19,11 @@ export default function Projects() {
             localLink: "/projects/diligence-ai"
         },
         {
-            title: "Conflict Guard (Venue Management SaaS)",
+            title: "Venue Management SaaS",
             tag: "B2B SaaS",
             period: "",
             problem: "Event venues in Pakistan use paper-based systems, leading to double-bookings and financial leakage.",
-            solution: "Built a mobile-first digital command center with 'Conflict Guard' technology to eliminate booking errors and automate receipts.",
+            solution: "Built a mobile-first web app with 'Conflict Guard' technology to eliminate booking errors and automate receipts.",
             architecture: [
                 { label: "Core", text: "Next.js, TypeScript, Tailwind CSS" },
                 { label: "Backend", text: "Supabase & PostgreSQL with Row Level Security." },

@@ -6,11 +6,11 @@ export default function Hero() {
         <section className="min-h-[80vh] flex flex-col justify-center items-center text-center max-w-5xl mx-auto px-6 py-20">
             <div className="space-y-6 max-w-3xl">
                 <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
-                    Building products at the intersection of <span className="text-blue-600">business</span> and <span className="text-teal-600">code</span>.
+                    Building early-stage products at the intersection of <span className="text-blue-600">business</span> and <span className="text-teal-600">technology</span>.
                 </h1>
 
                 <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                    Technical Product Manager architecting fintech infrastructure and B2B SaaS solutions.
+                    Product-focused technical builder experienced in user research, MVP execution, and AI-assisted prototyping.
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-4 pt-4">

@@ -5,13 +5,13 @@ export default function Experience() {
     const roles = [
         {
             company: "Stealth Fintech",
-            role: "Co-Founder",
+            role: "Co-Founder - Product",
             period: "June 2025 - Present",
-            description: "Architecting algorithmic trading infrastructure for the Pakistan Stock Exchange.",
+            description: "Building and validating an early-stage algorithmic trading platform for the Pakistan Stock Exchange.",
             details: [
-                { label: "The Build", text: "Engineered a full-stack trading MVP with a Python/Pandas backtesting engine and FastAPI layer." },
-                { label: "The Strategy", text: "Conducted user research with 15+ stakeholders to identify gaps in PSX infrastructure." },
-                { label: "The Outcome", text: "Led incubation at IBA CED and secured an initial waitlist of quant traders." }
+                { label: "The Build", text: "Built an MVP trading platform with a Python/Pandas backtesting engine and FastAPI layer." },
+                { label: "The Strategy", text: "Conducted user research with 15+ stakeholders to identify gaps in PSX tools and workflows." },
+                { label: "The Outcome", text: "Participated in IBA CED’s incubation program and validated early user interest from quant traders." }
             ],
             href: "/experience/stealth-fintech"
         }
